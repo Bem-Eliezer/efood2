@@ -3,18 +3,7 @@ import { Descricao } from '../../Home/Card/styles'
 
 import * as styles from './styles'
 import fechar from '../../../../assets/images/fechar.png'
-import {
-  Adicionar,
-  Adicionar2,
-  Card2,
-  Card3,
-  Div,
-  DivImage,
-  Modal,
-  Paragrafo,
-  Titulo,
-  Titulo2
-} from './styles'
+import { Adicionar, Card2, Div, DivImage, Titulo } from './styles'
 import Menu from '../../../../model/Menu/Menu'
 import { getDescription } from '../../../Utils/function'
 import { useDispatch } from 'react-redux'

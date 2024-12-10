@@ -9,7 +9,11 @@ export const cores = {
   vermelho: '#E66767',
   branco: '#fff',
   bege: '#FFEBD9',
-  creme: '#FFF8F2'
+  creme: '#FFF8F2',
+  overlay: '#000',
+  backgroundButtonProduct: '#FFEBD9',
+  cartAsideBackgroundColor: '#E66767',
+  cartBackgroundColor: '#FFEBD9'
 }
 
 export const breakPoints = {

@@ -8,6 +8,7 @@ import { Provider } from 'react-redux'
 import { store } from './Store'
 import HomePage from './components/Pages/Home/Page'
 import Perfil from './components/Pages/Perfil/Pagina'
+import Cart from './components/Cart'
 
 const rotas = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ function App() {
       <GlobalCss />
       <RouterProvider router={rotas} />
       <Rodape />
+      <Cart />
     </Provider>
   )
 }

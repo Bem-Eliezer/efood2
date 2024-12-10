@@ -29,7 +29,7 @@ export default function Footer() {
         estabelecimento contratado.
       </p>{' '}
       <br />
-      <p>&copy; 2023, Todos os direitos reservados. Jailson Joventino</p>
+      <p>&copy; 2023, Todos os direitos reservados. Bem Eliezer</p>
     </FooterContainer>
   )
 }

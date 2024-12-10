@@ -29,7 +29,7 @@ const Header = ({ nationality, image, restaurantname }: PropsHeader) => {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    if (location.pathname == `/Perfil/${id}`) {
+    if (location.pathname == `/KnowMore/${id}`) {
       setTypeHeader('customized')
     } else if (location.pathname == '') {
       setTypeHeader('normal')
